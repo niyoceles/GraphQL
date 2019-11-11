@@ -1,0 +1,25 @@
+{
+  "name": "graphqlproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyoceles/GraphQL.git"
+  },
+  "author": "Celestin Niyonsaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niyoceles/GraphQL/issues"
+  },
+  "homepage": "https://github.com/niyoceles/GraphQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "nodemon": "^1.19.4"
+  }
+}
